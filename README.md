@@ -1,0 +1,1 @@
+# Plantilla para proyectos con Next.js y Sass
