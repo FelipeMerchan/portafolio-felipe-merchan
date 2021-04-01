@@ -1,10 +1,14 @@
 import React from 'react'
-import NavBar from '../src/components/NavBar'
+
+import { Hero } from '../src/components/Hero'
+import styles from '../src/assets/styles/pages/index.module.scss'
 
 const Home = () => {
   return (
     <>
-      <h1>Hola</h1>
+      <main className={styles.Home}>
+        <Hero />
+      </main>
     </>
   )
 }

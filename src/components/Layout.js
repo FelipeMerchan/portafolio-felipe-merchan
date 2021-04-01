@@ -1,14 +1,15 @@
 import React from 'react'
-import NavBar from './NavBar'
-import BottomPlayer from './BottomPlayer'
+
+import { Header } from './Header'
+
+import styles from '../assets/styles/components/Layout.module.scss'
 
 const Layout = ({ children }) => {
   return (
-    <>
-      <NavBar />
+    <div className={styles.Layout}>
+      <Header />
       {children}
-      <BottomPlayer />
-    </>
+    </div>
   )
 }
 

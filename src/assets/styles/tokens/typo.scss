@@ -7,19 +7,24 @@
 //     ╚═╝      ╚═╝   ╚═╝      ╚═════╝
 //
 
-$font: 'Montserrat', sans-serif;
+$font: 'Poppins', system-ui;
 
 // Typos
-$h1: 50px;
-$h2: 30px;
-$h3: 20px;
-$p: 13px;
-$small: 10px;
+$h1: 6rem;
+$h2: 3.6rem;
+$h3: 3rem;
+$p: 2rem;
+$button: 1.6rem;
+$smallText: 1.6rem;
 
-// Typo Bolds
+// Typos mobile
+$h1Mobile: 3.6rem;
+$h2Mobile: 3rem;
+$h3Mobile: 2.4rem;
+$pMobile: 1.6rem;
+$buttonMobile: 1.6rem;
+$smallTextMobile: 1.4rem;
 
-$black: 800;
-$bolder: 700;
-$medium: 600;
-$normal: 500;
-$light: 400;
+// Typo bolds
+$regular: 400;
+$bold: 700;

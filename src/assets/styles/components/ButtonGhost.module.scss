@@ -1,0 +1,17 @@
+@import '../tokens/colors.scss';
+@import '../tokens/spacing.scss';
+
+.ButtonGhost {
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  block-size: 4.7rem;
+  padding: $space-2 $space-3;
+  border: 1px solid $black;
+  border-radius: $borderRadius;
+  color: $black;
+  cursor: pointer;
+  background-color: transparent;
+}

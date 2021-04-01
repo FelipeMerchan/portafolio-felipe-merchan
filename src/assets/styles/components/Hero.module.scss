@@ -1,0 +1,18 @@
+@import '../tokens/spacing.scss';
+
+.Hero {
+  block-size: 100vh;
+  padding-block-start: 8.3rem;
+  background-image: url('https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617262463/portafolio/header-mobile_2x_bbpw3i.jpg');
+  background-size: cover;
+  background-position: center;
+
+  &__content {
+    padding-inline-start: $space-2;
+    padding-inline-end: $space-2;
+  }
+
+  &__title {
+    margin-block-end: $space-2;
+  }
+}

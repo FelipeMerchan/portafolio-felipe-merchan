@@ -4,43 +4,27 @@
 
 body,
 html {
+  font-size: 62.5%;
   font-family: $font;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  color: $black_normal;
+  color: $black;
+  line-height: 1.2;
 }
 
 h1 {
-  font-size: $h1;
+  font-size: $h1Mobile;
 }
 
 h2 {
-  font-size: $h2;
-}
-
-h3 {
-  font-size: $h3;
-}
-
-h1,
-h2,
-h3 {
-  margin-block-start: $space;
-  margin-block-end: $space;
+  font-size: $h2Mobile;
 }
 
 p,
-a,
-.normal {
-  font-size: $p;
-  margin-block-start: $space;
-  margin-block-end: $space;
+a {
+  font-size: $pMobile;
 }
 
-.small {
-  font-size: $small;
-}
-
-.bold {
-  font-weight: bolder;
+button {
+  font-size: $buttonMobile;
 }

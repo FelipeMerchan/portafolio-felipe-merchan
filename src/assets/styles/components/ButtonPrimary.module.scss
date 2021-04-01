@@ -1,0 +1,17 @@
+@import '../tokens/colors.scss';
+@import '../tokens/spacing.scss';
+
+.ButtonPrimary {
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  block-size: 4.7rem;
+  padding: $space-2 $space-3;
+  border: 0;
+  border-radius: $borderRadius;
+  color: $white;
+  cursor: pointer;
+  background-color: $primary;
+}

@@ -1,0 +1,22 @@
+@import '../tokens/colors.scss';
+@import '../tokens/spacing.scss';
+@import '../tokens/typo.scss';
+
+.Header {
+  position: absolute;
+  right: 0;
+  left:  0;
+  inline-size: 100%;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    padding-block-start:  $space-2;
+    padding-inline-start: $space-2;
+    padding-inline-end:   $space-2;
+  }
+
+  &__isotipoWrapper {
+    inline-size: 3.2rem;
+  }
+}

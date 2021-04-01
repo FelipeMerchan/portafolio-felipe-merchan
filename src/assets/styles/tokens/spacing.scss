@@ -6,11 +6,22 @@
 //  ╚══════╝╚═╝     ╚═╝  ╚═╝ ╚═════╝╚═╝╚═╝  ╚═══╝ ╚═════╝
 //
 
-// Units
+// Component scale
+$spaceHalf: .4rem;
+$space: .8rem;
+$space-2: 1.6rem;
+$space-3: 2.4rem;
+$space-4: 3.2rem;
+$space-5: 4rem;
 
-$space-half: .5rem;
-$space: 1rem;
-$space-2: 2rem;
-$space-3: 3rem;
-$space-4: 4rem;
-$space-5: 5rem;
+// Layout Scale
+$l-scale: 1.6rem;
+$l-scale-2: 2.4rem;
+$l-scale-3: 3.2rem;
+$l-scale-4: 4.8rem;
+$l-scale-5: 6.4rem;
+$l-scale-6: 9.6rem;
+$l-scale-7: 16rem;
+
+//Border radius
+$borderRadius: .4rem;
