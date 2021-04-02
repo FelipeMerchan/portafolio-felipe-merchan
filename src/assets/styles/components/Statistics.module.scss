@@ -7,7 +7,7 @@
 
   &__metrics {
     position: absolute;
-    bottom: 0;
+    bottom: -.1rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     inline-size: 100%;
