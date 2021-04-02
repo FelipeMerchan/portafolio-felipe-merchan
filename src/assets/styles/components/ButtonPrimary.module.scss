@@ -14,4 +14,12 @@
   color: $white;
   cursor: pointer;
   background-color: $primary;
+
+  &:hover { background-color: $primaryLight; }
+
+  &:focus { outline: 0; }
+
+  svg {
+    margin-inline-start: $space;
+  }
 }

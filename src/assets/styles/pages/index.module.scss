@@ -1,0 +1,15 @@
+@import '../tokens/spacing.scss';
+
+.Careers {
+  margin-block-start: -3.2rem;
+  margin-block-end: $l-space-5;
+
+  &__content {
+    padding-inline-start: $space-2;
+    padding-inline-end: $space-2;
+
+    & > article:first-child {
+      margin-block-end: $space-3;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+@import '../tokens/spacing.scss';
+@import '../tokens/colors.scss';
+@import '../tokens/typo.scss';
+
+.Footer {
+  padding-block-start: $l-space-5;
+  padding-block-end:   $l-space-5;
+  color: $white;
+  background-color: $surface;
+
+  &__content {
+    padding-inline-start: $space-2;
+    padding-inline-end:   $space-2;
+  }
+
+  &__title {
+    margin-block-end: $space;
+    font-size: $smallTextMobile;
+    text-transform: uppercase;
+  }
+
+  &__subtitle {
+    margin-block-end: $space-3;
+    font-size: $h2Mobile;
+  }
+
+  &__email {
+    color: $white;
+    font-size: $smallTextMobile;
+    font-weight: $bold;
+    text-decoration: none;
+  }
+
+  &__social {
+    display: flex;
+    margin-block-start: $space-2;
+    margin-block-end:   $space-2;
+
+    a {
+      display: block;
+      block-size: 3rem;
+      inline-size: 3rem;
+      border-radius: 50%;
+      border: 1px solid $white;
+      background-size: 1.6rem;
+      background-position: center;
+      background-repeat: no-repeat;
+      &:not(:last-child) { margin-inline-end: $space; }
+      &:first-child { background-image: url('https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617350862/portafolio/instagram-isotipo_b9ihyy.svg'); }
+      &:nth-of-type(2) { background-image: url('https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617350862/portafolio/github-isotipo_dr6yt2.svg'); }
+      &:last-child { background-image: url('https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617350863/portafolio/linkedin-isotipo_ipp1cp.svg'); }
+    }
+  }
+
+  &__brandWrapper {
+    inline-size: 3.2rem;
+  }
+}

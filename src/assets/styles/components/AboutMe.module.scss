@@ -1,0 +1,32 @@
+@import '../tokens/spacing.scss';
+@import '../tokens/colors.scss';
+@import '../tokens/typo.scss';
+
+.AboutMe {
+
+  &__content {
+    padding-inline-start: $space-2;
+    padding-inline-end:   $space-2;
+  }
+
+  &__title {
+    font-size: $smallTextMobile;
+    text-transform: uppercase;
+  }
+
+  hr {
+    margin-block-start: $space;
+    margin-block-end:   $space;
+    border-color: $black;
+    inline-size: 20rem;
+  }
+
+  &__subtitle {
+    margin-block-end: $l-space-4;
+    font-size: $h2Mobile;
+  }
+
+  &__details {
+    margin-block-start: $l-space-5;
+  }
+}

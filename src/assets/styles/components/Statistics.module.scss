@@ -1,0 +1,47 @@
+@import '../tokens/spacing.scss';
+@import '../tokens/colors.scss';
+@import '../tokens/typo.scss';
+
+.Statistics {
+  position: relative;
+
+  &__metrics {
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    inline-size: 100%;
+
+    article {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      block-size: 12.6rem;
+      text-align: center;
+
+      span {
+        display: block;
+        font-size: $h1Mobile;
+        font-weight: $bold;
+      }
+
+      p {
+        font-size: $smallTextMobile;
+      }
+    }
+  }
+
+  &__years {
+    color: $white;
+    background-color: $primary;
+  }
+
+  &__projects {
+    background-color: $backgroundGray;
+  }
+
+  &__hours {
+    background-color: $white;
+  }
+}

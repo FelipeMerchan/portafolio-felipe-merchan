@@ -1,0 +1,24 @@
+@import '../tokens/spacing.scss';
+@import '../tokens/colors.scss';
+@import '../tokens/typo.scss';
+
+.ProjectList {
+  margin-block-start: $l-space-5;
+  margin-block-end: $l-space-5;
+
+  &__content {
+    padding-inline-start: $space-2;
+    padding-inline-end:   $space-2;
+  }
+
+  &__title {
+    margin-block-end: $space;
+    font-size: $smallTextMobile;
+    text-transform: uppercase;
+  }
+
+  &__subtitle {
+    margin-block-end: $space-3;
+    font-size: $h2Mobile;
+  }
+}

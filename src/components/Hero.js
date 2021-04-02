@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className="u-wrapper">
         <div className={styles.Hero__content}>
           <h1 className={styles.Hero__title}>¡Hola! Soy Felipe. Desarrollador frontend y diseñador UI</h1>
-          <ButtonGhost>Mis proyectos</ButtonGhost>
+          <ButtonGhost link="#proyectos">Mis proyectos</ButtonGhost>
         </div>
       </div>
     </section>

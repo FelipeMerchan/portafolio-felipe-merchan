@@ -1,0 +1,35 @@
+@import '../tokens/spacing.scss';
+@import '../tokens/colors.scss';
+@import '../tokens/typo.scss';
+
+.TestimonialsCarouselItem {
+  margin-block-end: $space-4;
+
+  &__imageWrapper {
+    inline-size: 6.2rem;
+    block-size: 6.2rem;
+    margin-block-end: $space-2;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: $primary;
+  }
+
+  &__abstract {
+    margin-block-end: $space-2;
+    font-size: $pMobile;
+  }
+
+  &__testimony {
+    margin-block-end: $space-2;
+  }
+
+  &__name {
+    display: block;
+    font-weight: $bold;
+    font-size: $smallTextMobile;
+  }
+
+  &__company {
+    font-size: $smallTextMobile;
+  }
+}

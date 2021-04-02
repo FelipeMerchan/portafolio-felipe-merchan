@@ -1,11 +1,13 @@
 import React from 'react'
 
+import { IconRight } from './IconRight'
 import styles from '../assets/styles/components/ButtonPrimary.module.scss'
 
-export const ButtonPrimary = ({ children }) => {
+export const ButtonPrimary = ({ children, link }) => {
   return (
-    <button className={styles.ButtonPrimary}>
+    <a className={styles.ButtonPrimary} href={link}>
       {children}
-    </button>
+      <IconRight color="#fff"/>
+    </a>
   )
 }

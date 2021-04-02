@@ -1,7 +1,7 @@
 @import '../tokens/colors.scss';
 @import '../tokens/spacing.scss';
 
-.ButtonGhost {
+.ButtonDownload {
   display: inline-flex;
   -webkit-box-pack: center;
   justify-content: center;
@@ -9,13 +9,13 @@
   align-items: center;
   block-size: 4.7rem;
   padding: $space-2 $space-3;
-  border: 1px solid $black;
+  border: 0;
   border-radius: $borderRadius;
-  color: $black;
+  color: $white;
   cursor: pointer;
-  background-color: transparent;
+  background-color: $primary;
 
-  svg {
-    margin-inline-start: $space;
-  }
+  &:hover { background-color: $primaryLight; }
+
+  &:focus { outline: 0; }
 }

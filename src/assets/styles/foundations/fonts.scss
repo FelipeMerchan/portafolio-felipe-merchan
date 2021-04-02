@@ -21,10 +21,16 @@ h2 {
 }
 
 p,
-a {
+a,
+span {
   font-size: $pMobile;
 }
 
+a {
+  text-decoration: none;
+}
+
 button {
+  font-family: $font;
   font-size: $buttonMobile;
 }

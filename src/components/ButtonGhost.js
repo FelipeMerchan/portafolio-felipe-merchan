@@ -1,11 +1,13 @@
 import React from 'react'
 
+import { IconRight } from './IconRight'
 import styles from '../assets/styles/components/ButtonGhost.module.scss'
 
-export const ButtonGhost = ({ children }) => {
+export const ButtonGhost = ({ children, link }) => {
   return (
-    <button className={styles.ButtonGhost}>
+    <a className={styles.ButtonGhost} href={link}>
       {children}
-    </button>
+      <IconRight color="#081421" />
+    </a>
   )
 }

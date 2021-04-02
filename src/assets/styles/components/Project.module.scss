@@ -1,0 +1,20 @@
+@import '../tokens/spacing.scss';
+@import '../tokens/colors.scss';
+@import '../tokens/typo.scss';
+
+.Project {
+
+  &:not(:last-child) {
+    margin-block-end: $space-3;
+  }
+
+  &__image {
+    border-radius: $borderRadius;
+  }
+
+  &__name {
+    display: block;
+    margin-block-start: $space-2;
+    font-weight: $bold;
+  }
+}

@@ -1,0 +1,34 @@
+@import '../tokens/colors.scss';
+@import '../tokens/spacing.scss';
+@import '../tokens/typo.scss';
+
+.CareerCard {
+  padding: $space-2;
+  border-radius: $borderRadius;
+  background-color: $primary;
+  color: $white;
+
+  &__specialty {
+    font-size: $pMobile;
+    text-transform: uppercase;
+    font-weight: $regular;
+  }
+
+  &__title {
+    font-size: $h2Mobile;
+  }
+
+  &__image {
+    display: block;
+    inline-size: 13.5rem;
+    margin: 0 auto;
+    margin-block-start: $space-5;
+    margin-block-end: $space-5;
+  }
+}
+
+.CareerCardUi {
+  @extend .CareerCard;
+  color: $black;
+  background-color: $white;
+}
