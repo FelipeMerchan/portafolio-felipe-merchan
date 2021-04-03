@@ -6,10 +6,32 @@
 
   &__content {
     padding-inline-start: $space-2;
-    padding-inline-end: $space-2;
+    padding-inline-end:   $space-2;
 
     & > article:first-child {
       margin-block-end: $space-3;
     }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Careers {
+    margin-block-start: -12.3rem;
+
+    &__content {
+      display: flex;
+      padding-inline-start: $space-4;
+      padding-inline-end:   $space-4;
+
+      & > article:first-child {
+        margin-block-end: 0;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .Careers {
+    margin-block-start: -9.7rem;
   }
 }

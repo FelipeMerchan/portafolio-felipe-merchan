@@ -5,7 +5,7 @@
 .CareerCard {
   padding: $space-2;
   border-radius: $borderRadius;
-  background-color: $primary;
+  background-color: $surface;
   color: $white;
 
   &__specialty {
@@ -31,4 +31,32 @@
   @extend .CareerCard;
   color: $black;
   background-color: $white;
+}
+
+@media screen and (min-width: 768px) {
+  .CareerCard {
+
+    &__specialty {
+      font-size: $p;
+    }
+
+    &__title {
+      font-size: $h2;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .CareerCard {
+    inline-size: 50%;
+    padding: $space-4 $space-3;
+
+    &__image {
+      display: block;
+      inline-size: 22.5rem;
+      margin: 0 auto;
+      margin-block-start: $space-5;
+      margin-block-end: $space-5;
+    }
+  }
 }

@@ -23,12 +23,12 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <AboutMe />
+        {/* <AboutMe />
         <ProjectList />
         <Clients />
         <Testimonials />
         <Statistics />
-        <Footer />
+        <Footer /> */}
       </main>
     </>
   )

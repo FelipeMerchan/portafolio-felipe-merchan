@@ -21,7 +21,6 @@ h2 {
 }
 
 p,
-a,
 span {
   font-size: $pMobile;
 }
@@ -30,7 +29,28 @@ a {
   text-decoration: none;
 }
 
-button {
+button,
+a {
   font-family: $font;
   font-size: $buttonMobile;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: $h1;
+  }
+
+  h2 {
+    font-size: $h2;
+  }
+
+  p,
+  span {
+    font-size: $p;
+  }
+
+  button,
+  a {
+    font-size: $button;
+  }
 }
