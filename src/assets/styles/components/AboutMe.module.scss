@@ -30,3 +30,41 @@
     margin-block-start: $l-space-5;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .AboutMe {
+
+    &__content {
+      padding-inline-start: $space-4;
+      padding-inline-end:   $space-4;
+    }
+
+    &__title {
+      font-size: $smallText;
+    }
+
+    &__subtitle {
+      inline-size: 100%;
+      max-inline-size: 51rem;
+      font-size: $h2;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .AboutMe {
+
+    & > div:nth-of-type(2) {
+      display: flex;
+      align-items: center;
+      inline-size: 100%;
+      max-inline-size: 144rem;
+      margin: 0 auto;
+    }
+
+    &__image {
+      padding-block-start: $l-space-5;
+      padding-block-end: $l-space-5;
+    }
+  }
+}
