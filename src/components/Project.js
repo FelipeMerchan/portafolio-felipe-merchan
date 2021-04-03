@@ -19,6 +19,7 @@ export const Project = ({ imageMobile, imageTablet, imageDesktop, altText, name,
           className={styles.Project__image}
           src={imageMobile}
           width="343"
+          loading="lazy"
           alt={altText}
         />
       </picture>

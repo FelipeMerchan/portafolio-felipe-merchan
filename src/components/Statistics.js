@@ -18,6 +18,7 @@ export const Statistics = () => {
           className={styles.Statistics__image}
           src="https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617348487/portafolio/fotomontaje-de-gato-mobile_2x_rdozez.jpg"
           width="377"
+          loading="lazy"
           alt="Fotomontaje de gato estudiando en computador en un cuarto destruido"
         />
       </picture>

@@ -10,15 +10,9 @@
   }
 
   &__title {
+    margin-block-end: $space;
     font-size: $smallTextMobile;
     text-transform: uppercase;
-  }
-
-  hr {
-    margin-block-start: $space;
-    margin-block-end:   $space;
-    border-color: $black;
-    inline-size: 20rem;
   }
 
   &__subtitle {
