@@ -56,13 +56,23 @@
 @media screen and (min-width: 1024px) {
   .DetailsAboutMe {
     inline-size: 100%;
-    max-inline-size: 56.4rem;
     padding-block-start: $l-space-6;
     padding-block-end:   $l-space-6;
 
     &__content {
-      max-inline-size: 80%;
+      max-inline-size: 46rem;
       margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .DetailsAboutMe {
+
+    &__content {
+      padding-inline-start: 12.8rem;
+      box-sizing: content-box;
+      margin: 0;
     }
   }
 }
