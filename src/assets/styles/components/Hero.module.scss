@@ -2,12 +2,25 @@
 
 .Hero {
   block-size: 100vh;
+  max-block-size: 73.6rem;
   padding-block-start: 8.3rem;
-  background-image: url('https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617262463/portafolio/header-mobile_2x_bbpw3i.jpg');
-  background-size: cover;
-  background-position: center;
+  background: rgb(243,243,244);
+  background: -moz-linear-gradient(180deg, rgba(243,243,244,1) 0%, rgba(217,219,221,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(243,243,244,1) 0%, rgba(217,219,221,1) 100%);
+  background: linear-gradient(180deg, rgba(243,243,244,1) 0%, rgba(217,219,221,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f3f3f4",endColorstr="#d9dbdd",GradientType=1);
+  overflow: hidden;
+
+  & > div {
+    position: relative;
+    block-size: 100%;
+  }
 
   &__content {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    inline-size: 100%;
     padding-inline-start: $space-2;
     padding-inline-end:   $space-2;
   }
@@ -15,12 +28,21 @@
   &__title {
     margin-block-end: $space-2;
   }
+
+  &__imageWrapper {
+    position: absolute;
+    bottom: 0;
+    align-self: center;
+    inline-size: 100%;
+    max-inline-size: 45rem;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .Hero {
+    max-block-size: 102.4rem;
     padding-block-start: 12.5rem;
-    background-image: url('https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617410968/portafolio/header-tablet_2x_ukzpe3.jpg');
 
     &__content {
       padding-inline-start: $space-4;
@@ -31,23 +53,31 @@
       max-inline-size: 53rem;
       margin-block-end: $space-3;
     }
+
+    &__imageWrapper {
+      max-inline-size: 60rem;
+    }
   }
 }
 
 @media screen and (min-width: 1024px) {
   .Hero {
-    display: flex;
-    align-items: center;
+    max-block-size: 80rem;
     padding-block-start: 0;
-    background-image: url('https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617411297/portafolio/header_az6s4u.jpg');
 
     &__content {
-      justify-self: flex-start;
+      justify-content: center;
+      block-size: 100%;
     }
 
     &__title {
       max-inline-size: 53rem;
       margin-block-end: $space-4;
+    }
+
+    &__imageWrapper {
+      right:  0;
+      max-inline-size: 70rem;
     }
   }
 }
