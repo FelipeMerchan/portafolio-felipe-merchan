@@ -4,7 +4,7 @@
 
 .ProjectList {
   margin-block-start: $l-space-5;
-  margin-block-end: $l-space-5;
+  margin-block-end:   $l-space-5;
 
   &__content {
     padding-inline-start: $space-2;
@@ -20,5 +20,42 @@
   &__subtitle {
     margin-block-end: $space-3;
     font-size: $h2Mobile;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ProjectList {
+
+    &__content {
+      padding-inline-start: $space-4;
+      padding-inline-end:   $space-4;
+    }
+
+    &__title {
+      margin-block-end: $space;
+      font-size: $smallText;
+    }
+
+    &__subtitle {
+      font-size: $h2;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .ProjectList {
+    margin-block-start: $l-space-6;
+    margin-block-end:   $l-space-6;
+
+    &__content {
+      & > div {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 47.2rem);
+        grid-gap: $space-4 $space-5;
+        grid-template-areas: "project1 project2 project2"
+                             "project3 project3 project4";
+      }
+    }
   }
 }
