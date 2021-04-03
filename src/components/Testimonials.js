@@ -12,8 +12,10 @@ export const Testimonials = () => {
     <section className={styles.Testimonials}>
       <div className="u-wrapper">
         <div className={styles.Testimonials__content}>
-          <h2 className={styles.Testimonials__title}>Testimoniales</h2>
-          <h3 className={styles.Testimonials__subtitle}>Qué dicen mis compañeros sobre mí</h3>
+          <div>
+            <h2 className={styles.Testimonials__title}>Testimoniales</h2>
+            <h3 className={styles.Testimonials__subtitle}>Qué dicen mis compañeros sobre mí</h3>
+          </div>
           <TestimonialsCarousel>
             {
               data.testimonials.map(testimony =>

@@ -33,3 +33,25 @@
     font-size: $smallTextMobile;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .TestimonialsCarouselItem {
+
+    &__abstract {
+      font-size: $p;
+    }
+
+    &__testimony {
+      inline-size: 100%;
+      max-inline-size: 51rem;
+    }
+
+    &__name {
+      font-size: $smallText;
+    }
+
+    &__company {
+      font-size: $smallText;
+    }
+  }
+}

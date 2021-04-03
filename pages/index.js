@@ -26,8 +26,8 @@ const Home = () => {
         <AboutMe />
         <ProjectList />
         <Clients />
-        {/* <Testimonials />
-        <Statistics />
+        <Testimonials />
+        {/* <Statistics />
         <Footer /> */}
       </main>
     </>

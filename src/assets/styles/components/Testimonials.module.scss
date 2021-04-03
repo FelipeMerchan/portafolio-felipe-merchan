@@ -4,7 +4,7 @@
 
 .Testimonials {
   padding-block-start: $l-space-5;
-  padding-block-end: $l-space-6;
+  padding-block-end:   $l-space-6;
   background-color: $white;
 
   &__content {
@@ -21,5 +21,40 @@
   &__subtitle {
     margin-block-end: $space-3;
     font-size: $h2Mobile;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Testimonials {
+
+    &__content {
+      padding-inline-start: $space-4;
+      padding-inline-end:   $space-4;
+    }
+
+    &__title {
+      font-size: $smallText;
+    }
+
+    &__subtitle {
+      inline-size: 100%;
+      max-inline-size: 51rem;
+      font-size: $h2;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .Testimonials {
+    padding-block-start: $l-space-6;
+    padding-block-end:   12.8rem;
+
+    &__content {
+      display: flex;
+
+      & > div {
+        inline-size: 50%;
+      }
+    }
   }
 }
