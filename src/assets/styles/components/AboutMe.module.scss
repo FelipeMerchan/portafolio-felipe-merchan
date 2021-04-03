@@ -58,13 +58,26 @@
       display: flex;
       align-items: center;
       inline-size: 100%;
-      max-inline-size: 144rem;
+      max-inline-size: 192rem;
       margin: 0 auto;
-    }
 
+      picture {
+        inline-size: 52%;
+      }
+
+      article {
+        inline-size: 48%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .AboutMe {
     &__image {
-      padding-block-start: $l-space-5;
-      padding-block-end: $l-space-5;
+      block-size: 36rem;
+      object-fit: cover;
+      box-sizing: content-box;
     }
   }
 }

@@ -5,7 +5,7 @@ import styles from '../assets/styles/components/Footer.module.scss'
 export const Footer = () => {
   return (
     <footer className={styles.Footer} id="contacto">
-      <div className="wrapper">
+      <div className="u-wrapper">
         <div className={styles.Footer__content}>
           <h2 className={styles.Footer__title}>Contáctame</h2>
           <h3 className={styles.Footer__subtitle}>¿Algún proyecto en mente? Conversemos</h3>
