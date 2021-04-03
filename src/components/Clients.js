@@ -31,7 +31,7 @@ export const Clients = () => {
                 />
               </figure>
             </div>
-            <p>Siempre mantengo un contacto cercano con las empresas y las personas que trabajaron conmigo para asegurarme de cultivar mis relaciones.</p>
+            <p className={styles.Clients__description}>Siempre mantengo un contacto cercano con las empresas y las personas que trabajaron conmigo para asegurarme de cultivar mis relaciones.</p>
           </div>
         </div>
       </div>
