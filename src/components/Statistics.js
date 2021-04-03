@@ -7,7 +7,7 @@ export const Statistics = () => {
     <section className={styles.Statistics}>
       <picture>
         <source
-          srcSet="https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617432095/portafolio/fotomontaje-de-gato-desktopt_2x_xfkvkd.jpg"
+          srcSet="https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617436904/portafolio/fotomontaje-de-gato-desktopt_3x_lcyjfv.jpg"
           media="(min-width: 1023px)"
         />
         <source
