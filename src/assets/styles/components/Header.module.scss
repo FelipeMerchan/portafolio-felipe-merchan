@@ -20,3 +20,14 @@
     inline-size: 3.2rem;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .Header {
+
+    &__content {
+      padding-block-start:  $space-4;
+      padding-inline-start: $space-4;
+      padding-inline-end:   $space-4;
+    }
+  }
+}
