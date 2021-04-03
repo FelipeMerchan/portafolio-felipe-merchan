@@ -2,7 +2,7 @@
 
 .Careers {
   margin-block-start: -3.2rem;
-  margin-block-end: $l-space-5;
+  margin-block-end:   $l-space-5;
 
   &__content {
     position: relative;
@@ -34,5 +34,6 @@
 @media screen and (min-width: 1024px) {
   .Careers {
     margin-block-start: -9.7rem;
+    margin-block-end:   $l-space-6;
   }
 }
