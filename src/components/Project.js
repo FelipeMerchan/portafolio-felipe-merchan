@@ -3,7 +3,7 @@ import React from 'react'
 
 import styles from '../assets/styles/components/Project.module.scss'
 
-export const Project = ({ imageMobile, imageTablet, imageDesktop, altText, name, specialty }) => {
+export const Project = ({ imageMobile, imageTablet, imageDesktop, altText, name, specialty, link }) => {
   return (
     <article className={styles.Project}>
       <picture>
@@ -25,6 +25,11 @@ export const Project = ({ imageMobile, imageTablet, imageDesktop, altText, name,
       </picture>
       <span className={styles.Project__name}>{name}</span>
       <span className={styles.Project__specialty}>{specialty}</span>
+      <a
+        className={styles.Project__link}
+        href={link}
+        target="_blank"
+      ></a>
     </article>
   )
 }

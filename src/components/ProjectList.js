@@ -18,6 +18,7 @@ export const ProjectList = () => {
               altText="troud - aplicación para intercambiar ropa"
               name="troud"
               specialty="Diseño UI y Desarrollo Web"
+              link="https://github.com/MasterSecondChance/Troud-Front"
             />
             <Project
               imageMobile="https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617333447/portafolio/portada-spotifu-mobile_2x_mgtjbf.jpg"
@@ -26,6 +27,7 @@ export const ProjectList = () => {
               altText="Interfaz de Spotifu"
               name="Spotifu"
               specialty="Desarrollo Web"
+              link="https://github.com/FelipeMerchan/spotifu"
             />
             <Project
               imageMobile="https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617333447/portafolio/portada-moviendonos-por-colombia-mobile_2x_dqdgxy.jpg"
@@ -34,6 +36,7 @@ export const ProjectList = () => {
               altText="Interfaz del sitio de #MoviéndonosPorColombia"
               name="#MoviéndonosPorColombia"
               specialty="Desarrollo Web"
+              link="https://comunicaciones.davivienda.com/moviendonos-por-colombia"
             />
             <Project
               imageMobile="https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617333447/portafolio/portada-findrop-mobile_2x_t5j7n9.jpg"

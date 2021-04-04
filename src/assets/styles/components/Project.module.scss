@@ -3,6 +3,7 @@
 @import '../tokens/typo.scss';
 
 .Project {
+  position: relative;
 
   &:not(:last-child) {
     margin-block-end: $space-3;
@@ -16,6 +17,14 @@
     display: block;
     margin-block-start: $space-2;
     font-weight: $bold;
+  }
+
+  &__link {
+    position: absolute;
+    top:    0;
+    right:  0;
+    bottom: 0;
+    left:   0;
   }
 }
 
