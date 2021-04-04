@@ -38,11 +38,11 @@
 
     a {
       display: block;
-      block-size: 3rem;
-      inline-size: 3rem;
-      border-radius: 50%;
+      block-size: 4.5rem;
+      inline-size: 4.5rem;
       border: 1px solid $white;
-      background-size: 1.6rem;
+      border-radius: 50%;
+      background-size: 2.5rem;
       background-position: center;
       background-repeat: no-repeat;
       &:not(:last-child) { margin-inline-end: $space; }
@@ -84,12 +84,6 @@
     &__social {
       margin-block-start: $space-3;
       margin-block-end:   $space-3;
-    }
-
-    a {
-      block-size: 4.5rem;
-      inline-size: 4.5rem;
-      background-size: 2.5rem;
     }
   }
 }
