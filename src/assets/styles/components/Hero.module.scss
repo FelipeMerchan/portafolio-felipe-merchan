@@ -61,6 +61,12 @@
   }
 }
 
+@media screen and (min-width: "768px") and (max-width: "1000px") and (orientation: landscape) {
+  .Hero {
+    min-block-size: 100rem;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .Hero {
     max-block-size: 80rem;
