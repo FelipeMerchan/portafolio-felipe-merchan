@@ -13,6 +13,7 @@ export const Header = () => {
             <img
               className={styles.Header__isotipo}
               width="32"
+              height="46"
               alt="Isotipo de Felipe Merchan"
               src="https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617259731/portafolio/felipe-isotipo_fndgtg.svg"
             />

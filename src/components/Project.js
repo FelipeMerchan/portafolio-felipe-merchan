@@ -19,6 +19,7 @@ export const Project = ({ imageMobile, imageTablet, imageDesktop, altText, name,
           className={styles.Project__image}
           src={imageMobile}
           width="343"
+          height="400"
           loading="lazy"
           alt={altText}
         />
@@ -29,6 +30,8 @@ export const Project = ({ imageMobile, imageTablet, imageDesktop, altText, name,
         className={styles.Project__link}
         href={link}
         target="_blank"
+        aria-label={altText}
+        title={altText}
       ></a>
     </article>
   )

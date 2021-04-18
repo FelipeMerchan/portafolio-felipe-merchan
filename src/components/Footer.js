@@ -14,14 +14,20 @@ export const Footer = () => {
             <a
               href="https://www.instagram.com/felipemerchan.col/"
               target="_blank"
+              aria-label="Instagram"
+              title="Instagram"
             ></a>
             <a
               href="https://github.com/FelipeMerchan"
               target="_blank"
+              aria-label="GitHub"
+              title="GitHub"
             ></a>
             <a
               href="https://www.linkedin.com/in/felipe-merchan-frontend-developer/"
               target="_blank"
+              aria-label="LinkedIn"
+              title="LinkedIn"
             ></a>
           </div>
           <figure className={styles.Footer__brandWrapper}>
@@ -29,6 +35,7 @@ export const Footer = () => {
               className={styles.Footer__brand}
               src="https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617351156/portafolio/felipe-isotipo-blanco_p5krzj.svg"
               width="32"
+              height="46"
               alt="Isotipo de Felipe Merchan"
             />
           </figure>

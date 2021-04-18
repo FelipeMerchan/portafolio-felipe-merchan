@@ -10,6 +10,7 @@ export const TestimonialsCarouselItem = ({ image, name, abstract, testimony, com
           className={styles.TestimonialsCarouselItem__image}
           src={image}
           width="62"
+          height="62"
           loading="lazy"
           alt={name}
         />

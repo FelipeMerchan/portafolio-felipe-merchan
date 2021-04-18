@@ -26,6 +26,7 @@ export const AboutMe = () => {
             className={styles.AboutMe__image}
             src="https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617328236/portafolio/platzi-conf-mobile_2x_yzkjnq.jpg"
             width="375"
+            height="200"
             alt="Foto con el equipo de Platzi en Platzi Conf 2019"
           />
         </picture>

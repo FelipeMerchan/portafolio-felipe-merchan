@@ -18,6 +18,7 @@ export const Clients = () => {
                   className={styles.Clients__brands}
                   src="https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617342598/portafolio/leo-burnett-logotipo_cbssek.svg"
                   width="166"
+                  height="50"
                   loading="lazy"
                   alt="Logotipo de Leo Burnett"
                 />
@@ -27,6 +28,7 @@ export const Clients = () => {
                   className={styles.Clients__brands}
                   src="https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617342678/portafolio/pfizer-imagotipo_nwgcc4.svg"
                   width="166"
+                  height="50"
                   loading="lazy"
                   alt="Imagotipo de Pfizer"
                 />

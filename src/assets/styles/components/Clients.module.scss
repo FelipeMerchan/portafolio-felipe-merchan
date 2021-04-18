@@ -11,7 +11,7 @@
 
     & > div:last-child > div {
       display: grid;
-      grid-template-columns: repeat(2, 16.6rem);
+      grid-template-columns: repeat(2, minmax(10rem, 16.6rem));
       grid-column-gap: $space;
       margin-block-end: $space-2;
     }
@@ -29,7 +29,7 @@
   }
 
   &__brands {
-    inline-size: 16.6rem;
+    max-inline-size: 16.6rem;
   }
 }
 
