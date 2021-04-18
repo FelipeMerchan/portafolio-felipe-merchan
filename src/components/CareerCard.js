@@ -26,6 +26,7 @@ export const CareerCard = ({ Career }) => {
         <img
           className={styles.CareerCard__image}
           width="135"
+          height="102"
           src={ Career === 'frontend' ? frontendImageMobile : uIImageMobile }
           alt="Ilustración de persona desarrollando un sitio web"
         />
