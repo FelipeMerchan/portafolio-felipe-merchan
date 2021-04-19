@@ -19,6 +19,7 @@ export const ProjectList = () => {
               name="troud"
               specialty="Diseño UI y Desarrollo Web"
               link="https://github.com/MasterSecondChance/Troud-Front"
+              aosAnimation="fade-right"
             />
             <Project
               imageMobile="https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617333447/portafolio/portada-spotifu-mobile_2x_mgtjbf.jpg"
@@ -28,6 +29,7 @@ export const ProjectList = () => {
               name="Spotifu"
               specialty="Desarrollo Web"
               link="https://github.com/FelipeMerchan/spotifu"
+              aosAnimation="fade-left"
             />
             <Project
               imageMobile="https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617333447/portafolio/portada-moviendonos-por-colombia-mobile_2x_dqdgxy.jpg"
@@ -37,6 +39,7 @@ export const ProjectList = () => {
               name="#MoviéndonosPorColombia"
               specialty="Desarrollo Web"
               link="https://comunicaciones.davivienda.com/moviendonos-por-colombia"
+              aosAnimation="fade-left"
             />
             <Project
               imageMobile="https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617333447/portafolio/portada-findrop-mobile_2x_t5j7n9.jpg"
@@ -45,6 +48,7 @@ export const ProjectList = () => {
               altText="Findrop - el lugar para descubrir experiencias en el mundo de la electrónica"
               name="Findrop"
               specialty="Diseño UI"
+              aosAnimation="fade-right"
             />
           </div>
         </div>

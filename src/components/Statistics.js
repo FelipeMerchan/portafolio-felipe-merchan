@@ -26,21 +26,35 @@ export const Statistics = () => {
       <div className="u-wrapper">
         <div className={styles.Statistics__content}>
           <div className={styles.Statistics__metrics}>
-            <article className={styles.Statistics__years}>
+            <article
+              className={styles.Statistics__years}
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+            >
               <span>02</span>
               <p>
                 Años de<br />
                 experiencia
               </p>
             </article>
-            <article className={styles.Statistics__projects}>
+            <article
+              className={styles.Statistics__projects}
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-delay="300"
+            >
               <span>15</span>
               <p>
                 Proyectos<br />
                 Exitosos
               </p>
             </article>
-            <article className={styles.Statistics__hours}>
+            <article
+              className={styles.Statistics__hours}
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-delay="600"
+            >
               <span>900+</span>
               <p>
                 Horas<br />

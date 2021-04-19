@@ -9,7 +9,11 @@ export const Clients = () => {
         <div className={styles.Clients__content}>
           <div>
             <h2 className={styles.Clients__title}>Clientes previos</h2>
-            <h3 className={styles.Clients__subtitle}>He tenido el placer de trabajar con marcas como:</h3>
+            <h3
+              className={styles.Clients__subtitle}
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >He tenido el placer de trabajar con marcas como:</h3>
           </div>
           <div>
             <div>
@@ -21,6 +25,8 @@ export const Clients = () => {
                   height="50"
                   loading="lazy"
                   alt="Logotipo de Leo Burnett"
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
                 />
               </figure>
               <figure className={styles.Clients__brandsWrapper}>
@@ -31,6 +37,8 @@ export const Clients = () => {
                   height="50"
                   loading="lazy"
                   alt="Imagotipo de Pfizer"
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
                 />
               </figure>
             </div>

@@ -8,7 +8,11 @@ export const Hero = () => {
     <section className={styles.Hero}>
       <div className="u-wrapper">
         <div className={styles.Hero__content}>
-          <h1 className={styles.Hero__title}>¡Hola! Soy Felipe. Desarrollador frontend y diseñador UI</h1>
+          <h1
+            className={styles.Hero__title}
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >¡Hola! Soy Felipe. Desarrollador frontend y diseñador UI</h1>
           <figure className={styles.Hero__imageWrapper}>
             <picture>
               <source

@@ -9,7 +9,11 @@ export const AboutMe = () => {
       <div className="u-wrapper">
         <div className={styles.AboutMe__content}>
           <h2 className={styles.AboutMe__title}>¿Qué es lo que hago?</h2>
-          <h3 className={styles.AboutMe__subtitle}>Creo productos digitales bajo la intersección de desarrollo y diseño</h3>
+          <h3
+            className={styles.AboutMe__subtitle}
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >Creo productos digitales bajo la intersección de desarrollo y diseño</h3>
         </div>
       </div>
       <div>
