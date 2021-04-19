@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Aos from 'aos'
+import "aos/dist/aos.css"
 
 import { Hero } from '../src/components/Hero'
 import styles from '../src/assets/styles/pages/index.module.scss'
@@ -11,6 +13,12 @@ import { Statistics } from '../src/components/Statistics'
 import { Footer } from '../src/components/Footer'
 
 const Home = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 2000,
+    })
+  }, [])
+
   return (
     <>
       <main className={styles.Home}>
@@ -18,8 +26,8 @@ const Home = () => {
         <section className={styles.Careers}>
           <div className="u-wrapper">
             <div className={styles.Careers__content}>
-              <CareerCard Career="frontend" />
-              <CareerCard Career="ui-design" />
+              <CareerCard Career="frontend" aosAnimation="fade-right" />
+              <CareerCard Career="ui-design" aosAnimation="fade-left" />
             </div>
           </div>
         </section>

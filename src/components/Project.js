@@ -3,9 +3,9 @@ import React from 'react'
 
 import styles from '../assets/styles/components/Project.module.scss'
 
-export const Project = ({ imageMobile, imageTablet, imageDesktop, altText, name, specialty, link }) => {
+export const Project = ({ imageMobile, imageTablet, imageDesktop, altText, name, specialty, link, aosAnimation }) => {
   return (
-    <article className={styles.Project}>
+    <article className={styles.Project} data-aos={aosAnimation}>
       <picture>
         <source
             srcSet={imageDesktop}
