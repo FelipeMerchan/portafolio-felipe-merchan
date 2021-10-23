@@ -1,12 +1,12 @@
-# Spotifu
+# Portafolio
 
-Maqueta de la interfaz de Spotifu. Considerada como una de las apps más famosas de la industria musical. Diseño original de [Leonidas Esteban](https://leonidasesteban.com/proyectos/spotifu "Leonidas Esteban").
+Soy ingeniero frontend con experiencia en la creación de aplicaciones y sitios web con React.js, Next.js, Redux, Shopify y JavaScript bajo metodologías Scrum. Con profunda pasión por aprender y descubrir nuevas formas de solucionar problemas a través de la creación de productos digitales.
 
 ## Instalación
 
 1. Clona este proyecto: `git clone <url>`.
 
-2. Dirígete a la carpeta del proyecto: `cd spotifu`
+2. Dirígete a la carpeta del proyecto: `cd portafolio-felipe-merchan`
 
 3. Instala las dependencias: `npm install`
 
@@ -24,6 +24,11 @@ Puedes ejecutar el commando:
 - Next.js
 - Sass
 
+## Librerías
+
+- [AOS](https://michalsnik.github.io/aos/)
+- [Slick carousel](https://react-slick.neostack.com/docs/get-started/)
+
 ## Methodologies
 
 ### Estilos
@@ -33,11 +38,7 @@ Puedes ejecutar el commando:
 
 ## Preview
 
-![preview](https://res.cloudinary.com/dy1xcx7kw/image/upload/v1615013708/spotifu/github-preview_2x_ou3g7f.jpg)
-
-## UI
-- [Design System](https://www.figma.com/file/SzSOEalwgay74qrEsOY1er/Spotifu?node-id=0%3A1 "Design System")
-- [Prototipo de alta fidelidad](https://www.figma.com/proto/SzSOEalwgay74qrEsOY1er/Spotifu?node-id=33%3A2&viewport=220%2C278%2C0.23565348982810974&scaling=min-zoom "Prototipo de alta fidelidad")
+![preview](https://res.cloudinary.com/dy1xcx7kw/image/upload/v1635031186/portafolio/portafolio-preview_r0mfaj.jpg)
 
 ## Author
 
