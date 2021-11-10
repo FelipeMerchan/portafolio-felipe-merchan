@@ -7,8 +7,10 @@
   margin-block-end:   $l-space-5;
 
   &__content {
+    inline-size: 100%;
     padding-inline-start: $space-2;
     padding-inline-end:   $space-2;
+    overflow: hidden;
   }
 
   &__title {
