@@ -10,6 +10,11 @@ html {
   scroll-behavior: smooth;
 }
 
+main {
+  inline-size: 100%;
+  overflow: hidden;
+}
+
 img {
   inline-size: 100%;
   block-size: auto;
